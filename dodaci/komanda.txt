@@ -1,0 +1,2 @@
+Potpisivanje aplikacije za store, zatim buildovanje 
+ keytool -genkey -v -keystore d:\fax\upload.keystore  -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
