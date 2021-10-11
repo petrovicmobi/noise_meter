@@ -104,7 +104,7 @@ class _NoiseAppState extends State<NoiseApp> {
   }
 
   openGithub() async {
-    const url = 'https://github.com/iqfareez/noise_meter_flutter';
+    const url = 'https://github.com/petrovicmobi/noise_meter.git';
     try {
       await launch(url);
     } catch (e) {
